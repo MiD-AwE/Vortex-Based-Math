@@ -148,7 +148,7 @@ body {
 	transition:         0.5s;
 }
 #nav li:hover ul, #nav li.active ul {
-	max-height: 170px;
+	max-height: 700px;
 	left: 0px;
 }
 #nav ul li {
