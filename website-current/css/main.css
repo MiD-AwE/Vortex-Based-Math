@@ -101,13 +101,25 @@ body {
 
 /** NAV **/
 #nav {
-	background: transparent;
+	background: rgba(0,0,0,.3);
 	position: fixed;
 	left: -5px;
 	top: 10px;
 	z-index: 9999;
 	pointer-events: auto;
+	-moz-border-radius-right: 4px; 
+	-webkit-border-right-radius: 4px; 
+	-khtml-border-right-radius: 4px; 
+	border-radius: 0px 4px 4px 0px;
+	-webkit-transition: 3s;
+	-moz-transition:    3s;
+	-ms-transition:     3s;
+	-o-transition:      3s;
+	transition:         3s;
 	/*opacity: 1;*/
+}
+#nav:hover {
+	background: rgba(0,0,0,.9);
 }
 #nav li {
 	list-style: none;
@@ -167,9 +179,10 @@ body {
 	transition:         0.5s;
 }
 #nav ul li {
-	font-size: 0.6em;
+	font-size: 0.9em;
 	margin: 3px 0px;
 }
+
 #nav ul li b {
 	padding-left: 10px;
 	display: block;
