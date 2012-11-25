@@ -151,6 +151,21 @@ body {
 	max-height: 700px;
 	left: 0px;
 }
+#nav li:hover ul li:hover ul, #nav li.active ul li.active ul {
+	max-height: 70px;
+	left: 0px;
+}
+#nav li:hover ul li ul, #nav li.active ul li ul {
+	position: relative;
+	width: 80%;
+	left: -300px;
+	max-height: 0px;
+	-webkit-transition: 0.5s;
+	-moz-transition:    0.5s;
+	-ms-transition:     0.5s;
+	-o-transition:      0.5s;
+	transition:         0.5s;
+}
 #nav ul li {
 	font-size: 0.6em;
 	margin: 3px 0px;
