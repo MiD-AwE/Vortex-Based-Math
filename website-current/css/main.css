@@ -101,6 +101,7 @@ body {
 
 /** NAV **/
 #nav {
+	color: rgba(255,255,255,.5);
 	background: rgba(0,0,0,.3);
 	position: fixed;
 	left: -5px;
@@ -111,6 +112,8 @@ body {
 	-webkit-border-right-radius: 4px; 
 	-khtml-border-right-radius: 4px; 
 	border-radius: 0px 4px 4px 0px;
+	-webkit-box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, .3);
+	box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, .3);
 	-webkit-transition: 3s;
 	-moz-transition:    3s;
 	-ms-transition:     3s;
@@ -119,7 +122,10 @@ body {
 	/*opacity: 1;*/
 }
 #nav:hover {
+	color: rgba(255,255,255,1);
 	background: rgba(0,0,0,.9);
+	-webkit-box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, 1);
+	box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, 1);
 }
 #nav li {
 	list-style: none;
