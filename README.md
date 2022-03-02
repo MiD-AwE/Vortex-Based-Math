@@ -5,7 +5,7 @@ Project for the study of Vortex Based Mathematics and it's accompanying 3d visua
 
 Don't know what Vortex Based Mathematics is? Check out: http://vortexmath.webs.com/ And here is a video presentation from the TEDx conference along with many explainations on the "Theorum" page: http://www.theabhakingdom.com/The_Gateway.html
 
-Vortex Based Math live 3D preview (webgl enabled browser only): http://vortexmath.netii.net
+Vortex Based Math live 3D preview (webgl enabled browser only): http://vbm.mid-awe.com
 
 Mailing List
 
