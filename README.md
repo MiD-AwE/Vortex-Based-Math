@@ -14,7 +14,7 @@ https://groups.google.com/forum/?fromgroups&hl=en#!forum/rodin-coil
 
 Building
 
-Note: You can get pre-built versions of the ABHA Torus here: (coming soon)
+Note: You can get pre-built versions of the ABHA Torus here: (https://www.blendswap.com/blend/25794)
 
 You'll need Blender 2.6x+ installed in order to build tori with the Parametric ABHA Torus '.blend' file, as well as InkScape 0.48+ or any Scallable Vector Graphic supporting software to manipulate the torus skin '.SVG'.
 
